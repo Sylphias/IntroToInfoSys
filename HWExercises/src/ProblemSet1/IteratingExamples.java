@@ -2,7 +2,7 @@
  * Created by Ilya on 18/9/16.
  */
 
-package Week1;
+package ProblemSet1;
 import java.util.*;
 
 

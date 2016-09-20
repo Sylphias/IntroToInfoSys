@@ -1,7 +1,7 @@
 /**
  * Created by Ilya on 18/9/16.
  */
-package Week1;
+package ProblemSet1;
 
 import java.util.Date;
 
@@ -61,9 +61,8 @@ public class Account {
     public double getMonthlyInterest(){
         return balance*(this.annualInterestRate/12.0);
     }
-    public double withdraw(double amount){
+    public void withdraw(double amount){
         this.balance -= amount;
-        return balance;
     }
     public double deposit(double amount){
         this.balance += amount;

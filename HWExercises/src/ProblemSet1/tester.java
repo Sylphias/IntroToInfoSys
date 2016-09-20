@@ -1,7 +1,7 @@
 /**
  * Created by Ilya on 18/9/16.
  */
-package Week1;
+package ProblemSet1;
 public class tester {
     public static void main(String[]args){
         Account account = new Account(1122, 20000);

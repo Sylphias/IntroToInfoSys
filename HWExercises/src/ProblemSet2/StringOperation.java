@@ -32,16 +32,16 @@ public class StringOperation {
         if(sorted1.length != sorted2.length){
             return false;
         }
-
         Arrays.sort(sorted1);
         Arrays.sort(sorted2);
-
-        for(int x = 0; x < sorted1.length; x ++){
-            if(sorted1[x] != sorted2[x]){
-                return false;
-            }
-        }
-        return true;
+        return sorted1 == sorted2;
+        // no need to check each char >.<
+//        for(int x = 0; x < sorted1.length; x ++){
+//            if(sorted1[x] != sorted2[x]){
+//                return false;
+//            }
+//        }
+//        return true;
 
     }
 

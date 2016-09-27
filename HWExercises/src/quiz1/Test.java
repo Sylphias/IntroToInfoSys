@@ -45,6 +45,7 @@ public class Test {
         return rawr;
     }
     // O(n+m)
+    // TODO: Refactor to use switch, read up on switch
     public static int[] mergeSortedArray(int[] A, int m, int[] B, int n ){
         int index = m+n;
         m--;
@@ -57,7 +58,6 @@ public class Test {
                 A[i] = A[m];
                 m--;
             }
-            switch(n,m)
             if (n != -1 && m != -1) {
                 if (A[m] > B[n]) {
                     A[i] = A[m];

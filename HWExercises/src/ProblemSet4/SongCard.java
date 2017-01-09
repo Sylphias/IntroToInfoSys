@@ -84,21 +84,22 @@ public class SongCard {
         System.out.println(sc);
 
     }
-}
-public class CardNotActivatedException extends Exception{
+    public class CardNotActivatedException extends Exception{
 
-    public CardNotActivatedException(String m) {
-        super(m);
+        public CardNotActivatedException(String m) {
+            super(m);
+        }
+    }
+
+
+
+    public class CardEmptyException extends Exception{
+
+        public CardEmptyException(String m){
+            super(m);
+        }
     }
 }
 
-
-
-public class CardEmptyException extends Exception{
-
-    public CardEmptyException(String m){
-        super(m);
-    }
-}
 
 
